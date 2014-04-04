@@ -10,10 +10,7 @@
 --1. The accuracy, adequacy, completeness or reliability of the Source Code transmitted; or 
 --2. The merchantability or fitness for a particular purpose or use of the Source Code; or 
 --3. The results to be obtained from Code. 
-*
-*
-*
-*
+
 --****************************************************************
 create or replace function f_du_get_coll_exec_pidm (p_attr_code in VARCHAR2, p_coll_code in VARCHAR2, p_dept_code in VARCHAR2 DEFAULT NULL, p_levl_code VARCHAR2 DEFAULT NULL)
 RETURN NUMBER IS
